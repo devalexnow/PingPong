@@ -44,8 +44,8 @@ if (isMobile.matches) {
 let playerScore = 0;
 let computerScore = 0;
 const winningScore = 7;
-// let isGameOver = true;
-// let isNewGame = true;
+let isGameOver = true;
+let isNewGame = true;
 
 // Render Everything on Canvas
 function renderCanvas() {
@@ -77,7 +77,7 @@ function renderCanvas() {
   context.fill();
 
   // Score
-  context.font = '32px Courier New';
+  context.font = '27px Arial';
   context.fillText(playerScore, 20, canvas.height / 2 + 50);
   context.fillText(computerScore, 20, canvas.height / 2 - 30);
 }
@@ -205,7 +205,7 @@ function animate() {
   ballMove();
   ballBoundaries();
   computerAI();
-  
+  window.requestAnimationFrame(animate);  
 }
 
 // Start Game, Reset Everything
@@ -220,8 +220,7 @@ function startGame() {
   computerScore = 0;
   ballReset();
   createCanvas();
-  // animate();
-  setInterval(animate, 1000/60);
+  animate();
   canvas.addEventListener('mousemove', (e) => {
     playerMoved = true;
     // Compensate for canvas being centered
