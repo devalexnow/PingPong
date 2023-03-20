@@ -178,7 +178,7 @@ function showGameOverEl(winner) {
   gameOverEl.textContent = 'GAME OVER';
   gameOverEl.classList.add('game-over-container');
   // Title
-  const title = document.createElement('h1');
+  const title = document.createElement('h2');
   title.textContent = `${winner} Wins!`;
   // Button
   const playAgainBtn = document.createElement('button');
