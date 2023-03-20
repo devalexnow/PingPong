@@ -175,7 +175,7 @@ function showGameOverEl(winner) {
   // Hide Canvas
   canvas.hidden = true;
   // Container
-  gameOverEl.textContent = '';
+  gameOverEl.textContent = 'GAME OVER';
   gameOverEl.classList.add('game-over-container');
   // Title
   const title = document.createElement('h1');

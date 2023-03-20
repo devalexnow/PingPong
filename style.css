@@ -18,7 +18,7 @@ canvas {
   transform: translate(-50%, -50%);
   width: 500px;
   height: 700px;
-  background-color: rgb(56, 56, 56);
+  background-color: #159665;
   margin-top: -4px;
   z-index: 11;
   display: flex;
@@ -26,17 +26,18 @@ canvas {
   justify-content: center;
   align-items: center;
   color: whitesmoke;
+  font-size: 25px;
 }
 
 button {
   cursor: pointer;
-  color: rgb(0, 0, 0);
+  color: #159665;
   background-color: rgb(195, 195, 195);
   border: none;
   height: 50px;
   width: 200px;
   border-radius: 5px;
-  font-size: 20px;
+  font-size: 26px;
   font-family: Arial, Helvetica, monospace;
 }
 
