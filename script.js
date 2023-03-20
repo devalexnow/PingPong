@@ -11,7 +11,7 @@ const gameOverEl = document.createElement('div');
 
 // Paddle
 const paddleHeight = 10;
-const paddleWidth = 50;
+const paddleWidth = 70;
 const paddleDiff = 25;
 let paddleBottomX = 225;
 let paddleTopX = 225;
@@ -21,7 +21,7 @@ let paddleContact = false;
 // Ball
 let ballX = 250;
 let ballY = 350;
-const ballRadius = 5;
+const ballRadius = 9;
 
 // Speed
 let speedY;
@@ -50,7 +50,7 @@ let isNewGame = true;
 // Render Everything on Canvas
 function renderCanvas() {
   // Canvas Background
-  context.fillStyle = 'black';
+  context.fillStyle = '#159665';
   context.fillRect(0, 0, width, height);
 
   // Paddle Color
@@ -67,7 +67,7 @@ function renderCanvas() {
   context.setLineDash([4]);
   context.moveTo(0, 350);
   context.lineTo(500, 350);
-  context.strokeStyle = 'grey';
+  context.strokeStyle = 'white';
   context.stroke();
 
   // Ball
