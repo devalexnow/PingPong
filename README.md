@@ -6,11 +6,10 @@
 The project:
 1. Shows how **canvas can be animated**
 2. Has **smooth animation** 
-3. Includes **2 pages:**
-    - A game page 
-    - A gameover page
+3. Includes **two pages:**
+    - the game page 
+    - the gameover page
 
- 
 ## **How it works**
 
 I recreated the classic pong game in the browser. It **starts in a loop,** and the computer doesn’t move until you do. When you slide into the play area, the cursor disappears, and you’re **taking over** the bottom paddle. 
