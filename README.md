@@ -7,8 +7,8 @@ The project:
 1. Shows how **canvas can be animated**
 2. Has **smooth animation** 
 3. Includes **2 pages:**
-    A game page 
-    A gameover page
+    - A game page 
+    - A gameover page
 
  
 ## **How it works**
