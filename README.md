@@ -1,18 +1,22 @@
-# **Drag and Drop**
+# **Ping Pong**
 ### made in JavaScript
 
 ## **About the project**
 
 The project:
-1. Uses **a drag and drop mechanism**
-2. Is updated **in local storage**
-3. Allows you to **edit and delete** elements
+1. Shows how **canvas can be animated**
+2. Has **smooth animation** 
+3. Includes **2 pages:**
+    A game page 
+    A gameover page
+
  
 ## **How it works**
 
-The main goal of this project is to showcase **the drag-and-drop API.** The Kanban board is divided into four different columns: backlog (to do), in progress (doing), complete (done), and on hold. The items or tasks in each column are able to be moved between columns.
+I recreated the classic pong game in the browser. It **starts in a loop,** and the computer doesn’t move until you do. When you slide into the play area, the cursor disappears, and you’re **taking over** the bottom paddle. 
 
-If you click on the item, **the column lights up,** and if you drag it over a different column, it also lights up to show that you can let it go there. The project also uses content editable attributes in order to **add and modify** items. You can click „+Add item" in the column, fill out some text, and press „Save Item". Then you will see a new item in this column. 
+As soon as you make contact with the ball, you’re actually able to play against **a very basic computer AI.**
 
-You can also **edit** every item — just click it, change, and click outside of that box. To **delete** the item, click it, backspace everything, and click outside of it.
+The score is updated on the left side whenever you score a point or whenever the computer scores a point. Then **the ball resets** in the center again.
 
+If one player reaches 5 points, you will see **a gameover screen** that tells you who won: the computer or you. It also has a „play again" button that allows you to seamlessly restart another game.
